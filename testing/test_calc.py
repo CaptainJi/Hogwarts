@@ -9,7 +9,6 @@ class TestCalc():
 
     @pytest.mark.parametrize(('a', 'b'), yaml.safe_load(open('data.yaml')))
     def test_add(self, a, b):
-        self.cal = Calculator()
         result = a + b
         assert result == self.cal.add(a, b)
 
