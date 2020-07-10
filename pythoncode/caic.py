@@ -5,7 +5,7 @@ class Calculator:
         return a + b
 
     # 减法
-    def min(self, a, b):
+    def sub(self, a, b):
         return a - b
 
     # 乘法

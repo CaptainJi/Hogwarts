@@ -2,7 +2,10 @@ import pytest
 
 
 @pytest.fixture(scope='function', autouse=True)
-def def_setup_tearDown():
-    print("[开始计算]")
-    yield
+def setup():
+    print("\n[开始计算]")
+    # yield
+    # print('\n[计算结束]')
+@pytest.fixture(scope='function', autouse=True)
+def teardown():
     print('\n[计算结束]')
