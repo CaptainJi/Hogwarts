@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture(scope='function', autouse=True)
 def setup():
     print("\n[开始计算]")
@@ -9,3 +8,4 @@ def setup():
 @pytest.fixture(scope='function', autouse=True)
 def teardown():
     print('\n[计算结束]')
+
