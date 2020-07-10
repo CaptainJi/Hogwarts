@@ -16,7 +16,9 @@ class TestCalc():
                                                                           'str'])
     def test_add(self, a, b):
         result = a + b
-        print(result)
+        print(f'\na:{a}')
+        print(f'\nb:{b}')
+        print(f'\n运算结果={result}')
         assert result == self.cal.add(a, b)
 
     @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
@@ -25,7 +27,9 @@ class TestCalc():
                                                                           'str'])
     def test_sub(self, a, b):
         result = a - b
-        print(result)
+        print(f'\na:{a}')
+        print(f'\nb:{b}')
+        print(f'\n运算结果={result}')
         assert result == self.cal.sub(a, b)
 
     @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
@@ -34,7 +38,9 @@ class TestCalc():
                                                                           'str'])
     def test_mul(self, a, b):
         result = a * b
-        print(result)
+        print(f'\na:{a}')
+        print(f'\nb:{b}')
+        print(f'\n运算结果={result}')
         assert result == self.cal.mul(a, b)
 
     @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
@@ -43,5 +49,7 @@ class TestCalc():
                                                                           'str'])
     def test_div(self, a, b):
         result = a / b
-        print(result)
+        print(f'\na:{a}')
+        print(f'\nb:{b}')
+        print(f'\n运算结果={result}')
         assert result == self.cal.div(a, b)
