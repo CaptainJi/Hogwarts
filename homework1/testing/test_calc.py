@@ -3,7 +3,7 @@ import yaml
 import sys
 
 sys.path.append('..')
-from pythoncode.caic import Calculator
+from homework1.pythoncode.caic import Calculator
 
 
 # 定义测试类
@@ -11,10 +11,10 @@ class TestCalc():
     cal = Calculator()
 
     # 参数化用例
-    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
-    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
+    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
+    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
     # 加法测试用例
     def test_add(self, a, b):
         # 获取yaml字典中相应的key值
@@ -41,10 +41,10 @@ class TestCalc():
             assert result == self.cal.add(a, b)
 
     # 减法测试用例
-    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
-    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
+    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
+    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
     def test_sub(self, a, b):
         a = a['a']
         b = b['b']
@@ -67,10 +67,10 @@ class TestCalc():
             assert result == self.cal.sub(a, b)
 
     # 乘法测试用例
-    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
-    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
+    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
+    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
     def test_mul(self, a, b):
         a = a['a']
         b = b['b']
@@ -93,10 +93,10 @@ class TestCalc():
             assert result == self.cal.mul(a, b)
 
     # 除法测试用例
-    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
-    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['int', 'minus', 'zero', 'float', 'big_int',
-                                                                          'str'])
+    @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
+    @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
+                                                                          '字符'])
     def test_div(self, a, b):
         a = a['a']
         b = b['b']
