@@ -15,8 +15,9 @@ class TestCalc():
     #                                                                       '字符'])
     # @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
     #                                                                       '字符'])
-
+    # 定义用例依赖名称
     @pytest.mark.dependency(name='test_add')
+    # 定义用例执行顺序
     @pytest.mark.run(order=0)
     # 加法测试用例
     def test_add(self, cmdoption):

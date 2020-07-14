@@ -17,16 +17,13 @@ def setup():
     print('\n[计算结束]')
 
 
-# @pytest.fixture(scope='module', autouse=True)
-# def teardown():
-#     print('\n[计算结束]')
-
-
+# 自定义参数
 def pytest_addoption(parser):
     mygroup = parser.getgroup('Captain')
     mygroup.addoption('--env', default='test', dest='env', help='set your run env')
 
 
+# 根据自定义参数获取当前环境数据
 @pytest.fixture(scope='session')
 def cmdoption(request):
     myenv = request.config.getoption("--env", default='test')
