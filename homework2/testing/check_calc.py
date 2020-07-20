@@ -4,15 +4,26 @@ import sys
 
 sys.path.append('..')
 from pythoncode.caic import Calculator
-
+from conftest import cmdoption
 
 # 定义测试类
 class TestCalc():
     cal = Calculator()
 
+    def test_praser_data(self, cmdoption):
+        _, data = cmdoption
+        keys = data.keys()
+        values = data.values()
+        # values=kvalues.values()
+        print(data)
+        print(keys)
+        print(values)
+        return keys, values
+
+    keys, values = test_praser_data()
+
     # 参数化用例
-    # @pytest.mark.parametrize('a', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
-    #                                                                       '字符'])
+    @pytest.mark.parametrize('a, b', values, ids=keys)
     # @pytest.mark.parametrize('b', yaml.safe_load(open('data.yaml')), ids=['整数', '负数', '零', '浮点数', '大整数',
     #                                                                       '字符'])
     # 定义用例依赖名称
@@ -20,12 +31,12 @@ class TestCalc():
     # 定义用例执行顺序
     @pytest.mark.run(order=0)
     # 加法测试用例
-    def test_add(self, cmdoption):
+    def test_add(self, a, b):
         # 获取yaml字典中相应的key值
-        _, datas = cmdoption
-        print(datas)
-        a = datas['data'][0]
-        b = datas['data'][1]
+        # _, datas = cmdoption
+        # print(datas)
+        # a = datas['data'][0]
+        # b = datas['data'][1]
         # 尝试捕获异常
         try:
             result = a + b
