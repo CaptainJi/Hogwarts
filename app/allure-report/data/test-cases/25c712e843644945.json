@@ -1,0 +1,72 @@
+{
+  "uid" : "25c712e843644945",
+  "name" : "test_del_contact[Cola]",
+  "fullName" : "test_contact.TestContact#test_del_contact",
+  "historyId" : "aba9507c52801e3fc33a3c61c36bac3d",
+  "time" : {
+    "start" : 1595576437867,
+    "stop" : 1595576462716,
+    "duration" : 24849
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52d7fecb6eece766",
+      "name" : "stdout",
+      "source" : "52d7fecb6eece766.txt",
+      "type" : "text/plain",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "CaptainOfficePC"
+  }, {
+    "name" : "thread",
+    "value" : "15680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "'Cola'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25c712e843644945.json",
+  "parameterValues" : [ "'Cola'" ]
+}

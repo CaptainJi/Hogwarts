@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CaptainOfficePC",
+    "children" : [ {
+      "name" : "15680-MainThread",
+      "children" : [ {
+        "name" : "test_del_contact[Cola]",
+        "uid" : "25c712e843644945",
+        "parentUid" : "901eef8178f58e9529b323656bc23e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595576437867,
+          "stop" : 1595576462716,
+          "duration" : 24849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Cola'" ]
+      }, {
+        "name" : "test_add_contact[Cola]",
+        "uid" : "6b34084e8519e3f1",
+        "parentUid" : "901eef8178f58e9529b323656bc23e5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595576404389,
+          "stop" : 1595576423217,
+          "duration" : 18828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Cola'" ]
+      } ],
+      "uid" : "901eef8178f58e9529b323656bc23e5a"
+    } ],
+    "uid" : "f8d6a0dc9778f8e3ce662999ecca13ac"
+  } ]
+}
