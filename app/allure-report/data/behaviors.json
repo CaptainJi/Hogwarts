@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_add_contact[Cola]",
+    "uid" : "6b34084e8519e3f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595576404389,
+      "stop" : 1595576423217,
+      "duration" : 18828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Cola'" ]
+  }, {
+    "name" : "test_del_contact[Cola]",
+    "uid" : "25c712e843644945",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595576437867,
+      "stop" : 1595576462716,
+      "duration" : 24849
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'Cola'" ]
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "25c712e843644945",
+  "name" : "test_del_contact[Cola]",
+  "time" : {
+    "start" : 1595576437867,
+    "stop" : 1595576462716,
+    "duration" : 24849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b34084e8519e3f1",
+  "name" : "test_add_contact[Cola]",
+  "time" : {
+    "start" : 1595576404389,
+    "stop" : 1595576423217,
+    "duration" : 18828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
