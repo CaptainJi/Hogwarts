@@ -35,6 +35,7 @@ class Contact(BasePage):
         # self.WebDriverWait(self.driver, 10).until(self.find(MobileBy.XPATH, "//*[@text='添加成功']"))
         try:
             toast = self.find(MobileBy.XPATH, "//*[@text='添加成功']").text
+            # WebDriverWait(self.driver, 10).until(toast)
         except:
             print('添加失败')
             return False
@@ -53,6 +54,7 @@ class Contact(BasePage):
         :return:
         '''
         print(f'开始删除联系人{username}')
+        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath('//*[@text="添加成员"]'))
         WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f'//*[@text="{username}"]'))
         self.find(MobileBy.XPATH, f"//*[@text='{username}']").click()
         self.find(MobileBy.ID, 'com.tencent.wework:id/h9p').click()
@@ -67,6 +69,7 @@ class Contact(BasePage):
         # WebDriverWait(self.driver, 10).until(self.find(MobileBy.ID, 'com.tencent.wework:id/bci'))
         self.find(MobileBy.ID, 'com.tencent.wework:id/bci').click()
         try:
+            WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f"//*[@text='{username}']"))
             self.find(MobileBy.XPATH, f"//*[@text='{username}']").click()
         except:
             print('删除成功')
