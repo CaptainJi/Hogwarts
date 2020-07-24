@@ -17,7 +17,7 @@ class BasePage:
             # caps['skipServerInstallation'] = 'true'  # 跳过 uiautomator2 server的安装
             # caps['skipDeviceInitialization'] = 'true'  # 跳过设备初始化
             # caps['dontStopAppOnReset'] = 'true'    # 启动之前不停止app
-            # caps['settings[waitForIdleTimeout]'] = 0
+            caps['settings[waitForIdleTimeout]'] = 0
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
             self.driver.implicitly_wait(10)
 

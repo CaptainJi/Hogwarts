@@ -9,7 +9,7 @@ class Contact(BasePage):
     def __init__(self, driver: webdriver):
         self.driver = driver
 
-    def add_contact(self,username):
+    def add_contact(self, username, mobilephone):
         '''
         添加联系人:
         点击添加成员
@@ -17,6 +17,7 @@ class Contact(BasePage):
         :return:
         '''
         print(f'开始添加联系人{username}')
+        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath('//*[@text="添加成员"]'))
         self.find(MobileBy.ANDROID_UIAUTOMATOR, 'new UiScrollable'
                                                 '(new UiSelector().'
                                                 'scrollable(true).'
@@ -26,7 +27,7 @@ class Contact(BasePage):
                                                 'text("添加成员").instance(0));').click()
         self.find(MobileBy.XPATH, '//*[@text="手动输入添加"]').click()
         self.find(MobileBy.ID, 'com.tencent.wework:id/awt').send_keys(f'{username}')
-        self.find(MobileBy.ID, 'com.tencent.wework:id/f1e').send_keys('13312345678')
+        self.find(MobileBy.ID, 'com.tencent.wework:id/f1e').send_keys(f'{mobilephone}')
         self.find(MobileBy.XPATH, '//*[@text="设置部门"]').click()
         self.find(MobileBy.XPATH, "//*[contains(@text, '确定')]").click()
         # self.find(MobileBy.ID,'com.tencent.wework:id/g09').click()
@@ -41,7 +42,7 @@ class Contact(BasePage):
             print(toast)
             return True
 
-    def del_contact(self,username):
+    def del_contact(self, username):
         '''
         删除联系人:
         点击联系人
@@ -52,6 +53,7 @@ class Contact(BasePage):
         :return:
         '''
         print(f'开始删除联系人{username}')
+        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f'//*[@text="{username}"]'))
         self.find(MobileBy.XPATH, f"//*[@text='{username}']").click()
         self.find(MobileBy.ID, 'com.tencent.wework:id/h9p').click()
         self.find(MobileBy.XPATH, "//*[@text='编辑成员']").click()
