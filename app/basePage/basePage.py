@@ -1,14 +1,15 @@
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 
+
 class BasePage:
     driver = None
 
-    def __init__(self,driver:webdriver = None):
+    def __init__(self, driver: webdriver = None):
         if driver is None:
             caps = {}
             caps["platformName"] = "android"
-            caps["deviceName"] = "27dc7322"
+            caps["deviceName"] = "127.0.0.1:7555"
             caps["appPackage"] = "com.tencent.wework"
             caps["appActivity"] = ".launch.LaunchSplashActivity"
             caps["noReset"] = "true"
@@ -17,7 +18,7 @@ class BasePage:
             # caps['skipServerInstallation'] = 'true'  # 跳过 uiautomator2 server的安装
             # caps['skipDeviceInitialization'] = 'true'  # 跳过设备初始化
             # caps['dontStopAppOnReset'] = 'true'    # 启动之前不停止app
-            caps['settings[waitForIdleTimeout]'] = 0
+            caps['settings[waitForIdleTimeout]'] = 120
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
             self.driver.implicitly_wait(10)
 

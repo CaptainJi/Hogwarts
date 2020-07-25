@@ -1,6 +1,6 @@
 import pytest
 
-from index import Index
+from app.common.index import Index
 
 
 class TestContact():
@@ -19,3 +19,4 @@ class TestContact():
     def test_del_contact(self, username):
         result = self.index.goto_contact().del_contact(username)
         assert result
+

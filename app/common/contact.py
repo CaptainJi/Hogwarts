@@ -2,7 +2,7 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.support.wait import WebDriverWait
 
-from basePage import BasePage
+from app.basePage.basePage import BasePage
 
 
 class Contact(BasePage):
@@ -54,11 +54,12 @@ class Contact(BasePage):
         :return:
         '''
         print(f'开始删除联系人{username}')
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath('//*[@text="添加成员"]'))
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f'//*[@text="{username}"]'))
+        # WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath('//*[@text="添加成员"]'))
+        # WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f'//*[@text="{username}"]'))
         self.find(MobileBy.XPATH, f"//*[@text='{username}']").click()
         self.find(MobileBy.ID, 'com.tencent.wework:id/h9p').click()
         self.find(MobileBy.XPATH, "//*[@text='编辑成员']").click()
+        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath('//*[@text="删除成员"]'))
         self.find(MobileBy.ANDROID_UIAUTOMATOR, 'new UiScrollable'
                                                 '(new UiSelector().'
                                                 'scrollable(true).'
@@ -69,7 +70,7 @@ class Contact(BasePage):
         # WebDriverWait(self.driver, 10).until(self.find(MobileBy.ID, 'com.tencent.wework:id/bci'))
         self.find(MobileBy.ID, 'com.tencent.wework:id/bci').click()
         try:
-            WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(f"//*[@text='{username}']"))
+            WebDriverWait(self.driver, 10).until_not(lambda x: x.find_element_by_xpath(f"//*[@text='{username}']"))
             self.find(MobileBy.XPATH, f"//*[@text='{username}']").click()
         except:
             print('删除成功')
