@@ -1,4 +1,9 @@
-from APPOPHomeWork.page.app import App
+from time import sleep
+
+from appium.webdriver.common.mobileby import MobileBy
+
+from basePage import BasePage
+from page.app import App
 
 
 class TestContact:
@@ -21,5 +26,7 @@ class TestContact:
         self.app.back()
 
     def test_del_contact(self):
-        name = "kele"
-        self.app.goto_main().goto_contactlist().goto_search_contact().search_name(name)
+        name = "Cola"
+        res = self.app.goto_main().goto_contactlist().goto_choese_contact(
+            name).goto_more().goto_edit_members().del_member().get_del_res(name)
+        assert name not in res

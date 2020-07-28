@@ -1,5 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
-from APPOPHomeWork.page.basePage import BasePage
+
+from basePage import BasePage
 
 
 class AddManuallyPage(BasePage):

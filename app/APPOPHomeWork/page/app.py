@@ -1,19 +1,18 @@
 from appium import webdriver
-
-from APPOPHomeWork.page.basePage import BasePage
-from APPOPHomeWork.page.mainPage import MainPage
+from basePage import BasePage
+from page.mainPage import MainPage
 
 
 class App(BasePage):
     def start(self):
         '''
-                启动app
-                '''
+        启动app
+        '''
         if self.driver == None:
             # 第一次调用start（）方法的时候driver 为None
             caps = {}
             caps["platformName"] = "android"
-            caps["deviceName"] = "27dc7322"
+            caps["deviceName"] = "127.0.0.1:7555"
             caps["appPackage"] = "com.tencent.wework"
             caps["appActivity"] = ".launch.LaunchSplashActivity"
             caps["noReset"] = "true"

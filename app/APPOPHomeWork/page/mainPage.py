@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.basePage import BasePage
-from APPOPHomeWork.page.contactListPage import ContactListPage
+from basePage import BasePage
+from page.contactListPage import ContactListPage
 
 
 class MainPage(BasePage):
