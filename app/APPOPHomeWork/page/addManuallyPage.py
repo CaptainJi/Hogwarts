@@ -1,6 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from basePage import BasePage
+from APPOPHomeWork.page.basePage import BasePage
 
 
 class AddManuallyPage(BasePage):
@@ -16,6 +16,7 @@ class AddManuallyPage(BasePage):
         return self
 
     def set_gander(self, gender):
+        self.webdriver_wait(self.male_ele)
         self.find_and_click(self.gender_element)
         if gender == '男':
             # self.driver.find_element(MobileBy.XPATH, "//*[@text='男']").click()

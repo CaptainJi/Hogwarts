@@ -1,17 +1,21 @@
-import logging
-
+import logging.config
+from os import path
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:
+    conlog_path = path.join(path.dirname(path.abspath(__file__)), '../config/log.conf')
+    logging.config.fileConfig(conlog_path)
+    log = logging.getLogger()
+
     def __init__(self, driver: WebDriver = None):
         self.driver = driver
 
     def find(self, locator):
         # logging.info(f'find: {locator}')
-        print(locator)
+        # print(locator)
         return self.driver.find_element(*locator)
 
     def find_and_click(self, locator):
@@ -33,6 +37,12 @@ class BasePage:
     def webdriver_wait(self, locator, timeout=10):
         logging.info(f'webdriver_wait: {locator}, timeout: {timeout}')
         element = WebDriverWait(self.driver, timeout).until(
+            lambda x: x.find_element(*locator))
+        return element
+
+    def webdriver_wait_until_not(self, locator, timeout=10):
+        logging.info(f'webdriver_wait: {locator}, timeout: {timeout}')
+        element = WebDriverWait(self.driver, timeout).until_not(
             lambda x: x.find_element(*locator))
         return element
 

@@ -1,6 +1,7 @@
 from appium import webdriver
-from basePage import BasePage
-from page.mainPage import MainPage
+
+from APPOPHomeWork.page.basePage import BasePage
+from APPOPHomeWork.page.mainPage import MainPage
 
 
 class App(BasePage):
@@ -12,14 +13,15 @@ class App(BasePage):
             # 第一次调用start（）方法的时候driver 为None
             caps = {}
             caps["platformName"] = "android"
-            caps["deviceName"] = "127.0.0.1:7555"
+            # caps["deviceName"] = "127.0.0.1:7555"
+            caps["deviceName"] = "27dc7322"
             caps["appPackage"] = "com.tencent.wework"
             caps["appActivity"] = ".launch.LaunchSplashActivity"
             caps["noReset"] = "true"
             caps['skipServerInstallation'] = 'true'  # 跳过 uiautomator2 server的安装
             caps['skipDeviceInitialization'] = 'true'  # 跳过设备初始化
             # caps['dontStopAppOnReset'] = 'true'    # 启动之前不停止app
-            caps['settings[waitForIdleTimeout]'] = 0
+            caps['settings[waitForIdleTimeout]'] = 120
 
             # 与server 建立连接,初始化一个driver 创建session,返回一个sessionid
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)

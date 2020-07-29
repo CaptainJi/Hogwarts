@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from basePage import BasePage
-from page.editMembersPage import EditMembersPage
+from APPOPHomeWork.page.basePage import BasePage
+from APPOPHomeWork.page.editMembersPage import EditMembersPage
 
 edit_element = (MobileBy.XPATH, "//*[@text='编辑成员']")
 

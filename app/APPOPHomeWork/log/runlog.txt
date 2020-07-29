@@ -1,0 +1,128 @@
+2020-07-29 10:58:49,502 test_contact.py[line:15] INFO 开始测试
+2020-07-29 10:59:02,042 basePage.py[line:22] INFO click
+2020-07-29 10:59:04,590 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 10:59:05,880 basePage.py[line:22] INFO click
+2020-07-29 10:59:07,244 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 10:59:09,741 basePage.py[line:22] INFO click
+2020-07-29 10:59:11,236 basePage.py[line:22] INFO click
+2020-07-29 10:59:13,437 basePage.py[line:26] INFO sendkeys : 12312312312
+2020-07-29 10:59:15,247 basePage.py[line:22] INFO click
+2020-07-29 10:59:16,393 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 10:59:18,365 basePage.py[line:50] INFO back: 1
+2020-07-29 10:59:18,520 basePage.py[line:22] INFO click
+2020-07-29 10:59:19,391 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 10:59:20,855 basePage.py[line:22] INFO click
+2020-07-29 10:59:22,298 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 10:59:24,786 basePage.py[line:22] INFO click
+2020-07-29 10:59:26,350 basePage.py[line:22] INFO click
+2020-07-29 10:59:26,927 basePage.py[line:22] INFO click
+2020-07-29 10:59:47,468 basePage.py[line:22] INFO click
+2020-07-29 11:00:07,566 basePage.py[line:22] INFO click
+2020-07-29 11:00:27,656 basePage.py[line:22] INFO click
+2020-07-29 11:00:48,683 basePage.py[line:22] INFO click
+2020-07-29 11:01:07,672 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:01:38,073 basePage.py[line:22] INFO click
+2020-07-29 11:01:38,937 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:02:04,447 test_contact.py[line:22] INFO 测试完成
+2020-07-29 11:02:44,904 test_contact.py[line:15] INFO 开始测试
+2020-07-29 11:02:56,338 basePage.py[line:22] INFO click
+2020-07-29 11:02:58,077 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:03:00,262 basePage.py[line:22] INFO click
+2020-07-29 11:03:01,077 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 11:03:03,593 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 11:03:04,670 basePage.py[line:22] INFO click
+2020-07-29 11:03:06,112 basePage.py[line:22] INFO click
+2020-07-29 11:03:08,268 basePage.py[line:26] INFO sendkeys : 12312312312
+2020-07-29 11:03:10,108 basePage.py[line:22] INFO click
+2020-07-29 11:03:11,185 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 11:03:13,300 basePage.py[line:50] INFO back: 1
+2020-07-29 11:03:13,472 basePage.py[line:22] INFO click
+2020-07-29 11:03:14,406 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:03:15,934 basePage.py[line:22] INFO click
+2020-07-29 11:03:17,203 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 11:03:19,651 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 11:03:20,706 basePage.py[line:22] INFO click
+2020-07-29 11:03:22,178 basePage.py[line:22] INFO click
+2020-07-29 11:03:24,167 basePage.py[line:26] INFO sendkeys : 12312312313
+2020-07-29 11:03:26,149 basePage.py[line:22] INFO click
+2020-07-29 11:03:27,167 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 11:03:30,347 basePage.py[line:50] INFO back: 1
+2020-07-29 11:03:30,531 basePage.py[line:22] INFO click
+2020-07-29 11:03:31,381 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:03:33,036 basePage.py[line:22] INFO click
+2020-07-29 11:03:34,174 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 11:03:36,702 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 11:03:37,726 basePage.py[line:22] INFO click
+2020-07-29 11:03:39,192 basePage.py[line:22] INFO click
+2020-07-29 11:03:41,218 basePage.py[line:26] INFO sendkeys : 12312312314
+2020-07-29 11:03:43,259 basePage.py[line:22] INFO click
+2020-07-29 11:03:44,549 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 11:03:47,471 basePage.py[line:50] INFO back: 1
+2020-07-29 11:03:47,633 basePage.py[line:22] INFO click
+2020-07-29 11:03:49,357 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:03:50,899 basePage.py[line:22] INFO click
+2020-07-29 11:03:52,235 basePage.py[line:26] INFO sendkeys : Fanta
+2020-07-29 11:03:54,731 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 11:03:55,838 basePage.py[line:22] INFO click
+2020-07-29 11:03:57,292 basePage.py[line:22] INFO click
+2020-07-29 11:03:59,439 basePage.py[line:26] INFO sendkeys : 12312312315
+2020-07-29 11:04:01,322 basePage.py[line:22] INFO click
+2020-07-29 11:04:02,367 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 11:04:03,869 basePage.py[line:50] INFO back: 1
+2020-07-29 11:04:04,440 basePage.py[line:22] INFO click
+2020-07-29 11:04:05,450 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:04:06,857 basePage.py[line:22] INFO click
+2020-07-29 11:04:07,981 basePage.py[line:22] INFO click
+2020-07-29 11:04:09,325 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:04:14,124 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 11:04:14,676 basePage.py[line:22] INFO click
+2020-07-29 11:04:15,440 basePage.py[line:22] INFO click
+2020-07-29 11:04:17,200 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 11:04:18,856 basePage.py[line:50] INFO back: 1
+2020-07-29 11:04:19,626 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Cola'), timeout: 10
+2020-07-29 11:04:40,177 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:04:40,238 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Cola'), timeout: 10
+2020-07-29 11:05:00,653 basePage.py[line:50] INFO back: 1
+2020-07-29 11:05:00,839 basePage.py[line:22] INFO click
+2020-07-29 11:05:01,726 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:05:03,118 basePage.py[line:22] INFO click
+2020-07-29 11:05:04,091 basePage.py[line:22] INFO click
+2020-07-29 11:05:05,529 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:05:10,184 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 11:05:10,637 basePage.py[line:22] INFO click
+2020-07-29 11:05:11,603 basePage.py[line:22] INFO click
+2020-07-29 11:05:13,283 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 11:05:15,060 basePage.py[line:50] INFO back: 1
+2020-07-29 11:05:15,777 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 11:05:36,740 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:05:36,800 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 11:05:57,782 basePage.py[line:50] INFO back: 1
+2020-07-29 11:05:57,934 basePage.py[line:22] INFO click
+2020-07-29 11:05:58,882 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:06:00,327 basePage.py[line:22] INFO click
+2020-07-29 11:06:01,367 basePage.py[line:22] INFO click
+2020-07-29 11:06:02,751 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:06:07,579 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 11:06:08,110 basePage.py[line:22] INFO click
+2020-07-29 11:06:08,865 basePage.py[line:22] INFO click
+2020-07-29 11:06:10,496 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 11:06:12,760 basePage.py[line:50] INFO back: 1
+2020-07-29 11:06:13,337 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 11:06:33,964 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:06:34,030 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 11:06:54,075 basePage.py[line:50] INFO back: 1
+2020-07-29 11:06:54,248 basePage.py[line:22] INFO click
+2020-07-29 11:06:55,103 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:06:56,516 basePage.py[line:22] INFO click
+2020-07-29 11:06:57,369 basePage.py[line:22] INFO click
+2020-07-29 11:06:58,979 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:07:03,821 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 11:07:04,397 basePage.py[line:22] INFO click
+2020-07-29 11:07:05,073 basePage.py[line:22] INFO click
+2020-07-29 11:07:07,053 basePage.py[line:26] INFO sendkeys : Fanta
+2020-07-29 11:07:08,480 basePage.py[line:50] INFO back: 1
+2020-07-29 11:07:09,251 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Fanta'), timeout: 10
+2020-07-29 11:07:30,122 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 11:07:30,176 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Fanta'), timeout: 10
+2020-07-29 11:07:50,255 basePage.py[line:50] INFO back: 1
+2020-07-29 11:07:50,417 test_contact.py[line:22] INFO 测试完成

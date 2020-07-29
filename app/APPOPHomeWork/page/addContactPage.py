@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from basePage import BasePage
-from page.addManuallyPage import AddManuallyPage
+from APPOPHomeWork.page.addManuallyPage import AddManuallyPage
+from APPOPHomeWork.page.basePage import BasePage
 
 
 class AddContactPage(BasePage):
