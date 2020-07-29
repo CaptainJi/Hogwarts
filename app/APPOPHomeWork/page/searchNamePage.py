@@ -1,6 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.basePage import BasePage
+from page.basePage import BasePage
 
 
 class SearchNamePage(BasePage):

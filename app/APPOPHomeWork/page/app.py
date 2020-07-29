@@ -1,7 +1,7 @@
 from appium import webdriver
 
-from APPOPHomeWork.page.basePage import BasePage
-from APPOPHomeWork.page.mainPage import MainPage
+from page.basePage import BasePage
+from page.mainPage import MainPage
 
 
 class App(BasePage):
@@ -21,7 +21,7 @@ class App(BasePage):
             caps['skipServerInstallation'] = 'true'  # 跳过 uiautomator2 server的安装
             caps['skipDeviceInitialization'] = 'true'  # 跳过设备初始化
             # caps['dontStopAppOnReset'] = 'true'    # 启动之前不停止app
-            caps['settings[waitForIdleTimeout]'] = 120
+            caps['settings[waitForIdleTimeout]'] = 0
 
             # 与server 建立连接,初始化一个driver 创建session,返回一个sessionid
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
@@ -29,7 +29,7 @@ class App(BasePage):
             # launch_app() 这个方法不需要传入任何参数， 会自动启动起来DesireCapa里面定义的activity
             # start_activity(packagename, activityname) 可以启动其它的应用的页面
             self.driver.launch_app()
-        self.driver.implicitly_wait(20)
+        self.driver.implicitly_wait(3)
         return self
 
     def restart(self):

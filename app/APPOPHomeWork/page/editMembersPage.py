@@ -1,6 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.basePage import BasePage
+from page.basePage import BasePage
 
 del_element = (MobileBy.XPATH, '//*[@text="删除成员"]')
 del_member = '删除成员'
@@ -14,5 +14,5 @@ class EditMembersPage(BasePage):
         self.webdriver_wait(confirm_del_element)
         self.find_and_click(confirm_del_element)
 
-        from APPOPHomeWork.page.contactListPage import ContactListPage
+        from page.contactListPage import ContactListPage
         return ContactListPage(self.driver)

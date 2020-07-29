@@ -1,9 +1,9 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.addContactPage import AddContactPage
-from APPOPHomeWork.page.basePage import BasePage
-from APPOPHomeWork.page.personInfoPage import PersonInfoPage
-from APPOPHomeWork.page.searchNamePage import SearchNamePage
+from page.addContactPage import AddContactPage
+from page.basePage import BasePage
+from page.personInfoPage import PersonInfoPage
+from page.searchNamePage import SearchNamePage
 
 
 class ContactListPage(BasePage):

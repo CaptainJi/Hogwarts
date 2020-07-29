@@ -1,6 +1,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.basePage import BasePage
+from page.basePage import BasePage
 
 
 class AddManuallyPage(BasePage):
@@ -33,5 +33,6 @@ class AddManuallyPage(BasePage):
 
     def click_save(self):
         self.find_and_click(self.save_ele)
-        from APPOPHomeWork.page.addContactPage import AddContactPage
+
+        from page.addContactPage import AddContactPage
         return AddContactPage(self.driver)

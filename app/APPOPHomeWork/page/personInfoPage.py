@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from APPOPHomeWork.page.basePage import BasePage
-from APPOPHomeWork.page.contactMoreInfoPage import ContactMoreInfoPage
+from page.basePage import BasePage
+from page.contactMoreInfoPage import ContactMoreInfoPage
 
 more_element = (MobileBy.ID, 'com.tencent.wework:id/h9p')
 

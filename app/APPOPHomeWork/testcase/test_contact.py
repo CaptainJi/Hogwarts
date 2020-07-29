@@ -3,7 +3,7 @@ import logging.config
 import pytest
 import yaml
 
-from APPOPHomeWork.page.app import App
+from page.app import App
 
 
 class TestContact:
@@ -15,9 +15,6 @@ class TestContact:
         self.app = App()
         self.app.start()
 
-    def setup(self):
-        logging.info('App重启')
-        self.app.restart()
 
     def teardown_class(self):
         logging.info('测试完成')

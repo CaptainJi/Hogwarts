@@ -126,3 +126,309 @@
 2020-07-29 11:07:30,176 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Fanta'), timeout: 10
 2020-07-29 11:07:50,255 basePage.py[line:50] INFO back: 1
 2020-07-29 11:07:50,417 test_contact.py[line:22] INFO 测试完成
+2020-07-29 12:53:05,115 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:20:59,577 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:21:13,514 test_contact.py[line:19] INFO App重启
+2020-07-29 13:22:44,132 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:22:55,897 test_contact.py[line:19] INFO App重启
+2020-07-29 13:28:07,127 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:28:17,950 test_contact.py[line:19] INFO App重启
+2020-07-29 13:28:48,212 test_contact.py[line:19] INFO App重启
+2020-07-29 13:28:54,947 test_contact.py[line:19] INFO App重启
+2020-07-29 13:28:55,007 test_contact.py[line:19] INFO App重启
+2020-07-29 13:28:55,104 test_contact.py[line:19] INFO App重启
+2020-07-29 13:29:05,110 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:29:17,227 test_contact.py[line:19] INFO App重启
+2020-07-29 13:30:16,338 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:30:27,841 test_contact.py[line:19] INFO App重启
+2020-07-29 13:31:46,533 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:31:59,241 test_contact.py[line:19] INFO App重启
+2020-07-29 13:51:46,833 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:52:31,812 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:52:45,894 test_contact.py[line:19] INFO App重启
+2020-07-29 13:57:59,157 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:58:17,167 test_contact.py[line:19] INFO App重启
+2020-07-29 13:58:36,064 test_contact.py[line:19] INFO App重启
+2020-07-29 13:58:44,445 test_contact.py[line:19] INFO App重启
+2020-07-29 13:58:52,859 test_contact.py[line:19] INFO App重启
+2020-07-29 13:59:01,258 test_contact.py[line:19] INFO App重启
+2020-07-29 13:59:36,417 test_contact.py[line:14] INFO 开始测试
+2020-07-29 13:59:57,245 test_contact.py[line:19] INFO App重启
+2020-07-29 14:02:28,512 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:02:42,855 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,239 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,319 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,382 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,485 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,607 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,698 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,809 test_contact.py[line:19] INFO App重启
+2020-07-29 14:04:06,885 test_contact.py[line:23] INFO 测试完成
+2020-07-29 14:04:34,820 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:05:13,173 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:05:24,753 test_contact.py[line:19] INFO App重启
+2020-07-29 14:16:07,996 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:16:23,031 test_contact.py[line:19] INFO App重启
+2020-07-29 14:17:11,165 test_contact.py[line:19] INFO App重启
+2020-07-29 14:17:19,443 test_contact.py[line:19] INFO App重启
+2020-07-29 14:17:27,756 test_contact.py[line:19] INFO App重启
+2020-07-29 14:21:30,746 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:22:22,269 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:22:36,301 test_contact.py[line:19] INFO App重启
+2020-07-29 14:30:36,677 test_contact.py[line:19] INFO App重启
+2020-07-29 14:57:58,263 test_contact.py[line:14] INFO 开始测试
+2020-07-29 14:58:08,640 test_contact.py[line:19] INFO App重启
+2020-07-29 14:59:22,837 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:00:10,793 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:00:23,659 test_contact.py[line:19] INFO App重启
+2020-07-29 15:06:50,970 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:07:01,974 test_contact.py[line:19] INFO App重启
+2020-07-29 15:07:42,341 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:07:53,993 test_contact.py[line:19] INFO App重启
+2020-07-29 15:09:19,597 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:09:31,691 test_contact.py[line:19] INFO App重启
+2020-07-29 15:09:46,941 test_contact.py[line:19] INFO App重启
+2020-07-29 15:09:55,264 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:03,654 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:11,997 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:12,623 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:12,685 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:12,749 test_contact.py[line:19] INFO App重启
+2020-07-29 15:10:12,811 test_contact.py[line:23] INFO 测试完成
+2020-07-29 15:12:43,902 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:12:56,640 test_contact.py[line:19] INFO App重启
+2020-07-29 15:20:56,987 test_contact.py[line:19] INFO App重启
+2020-07-29 15:21:25,776 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:21:38,099 test_contact.py[line:19] INFO App重启
+2020-07-29 15:31:56,930 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:32:09,095 test_contact.py[line:19] INFO App重启
+2020-07-29 15:34:05,272 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:34:23,044 test_contact.py[line:19] INFO App重启
+2020-07-29 15:35:10,065 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:35:25,578 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:08,991 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,055 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,118 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,188 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,260 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,324 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,386 test_contact.py[line:19] INFO App重启
+2020-07-29 15:43:09,447 test_contact.py[line:23] INFO 测试完成
+2020-07-29 15:57:27,393 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:57:38,892 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,106 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,189 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,264 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,359 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,439 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,519 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,613 test_contact.py[line:19] INFO App重启
+2020-07-29 15:57:39,705 test_contact.py[line:23] INFO 测试完成
+2020-07-29 15:59:23,428 test_contact.py[line:14] INFO 开始测试
+2020-07-29 15:59:33,454 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:33,674 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:33,753 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:33,848 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:33,927 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:34,006 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:34,087 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:34,180 test_contact.py[line:19] INFO App重启
+2020-07-29 15:59:34,273 test_contact.py[line:23] INFO 测试完成
+2020-07-29 16:00:26,157 test_contact.py[line:14] INFO 开始测试
+2020-07-29 16:00:36,455 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:36,656 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:36,734 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:36,812 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:36,891 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:36,987 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:37,065 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:37,160 test_contact.py[line:19] INFO App重启
+2020-07-29 16:00:37,253 test_contact.py[line:23] INFO 测试完成
+2020-07-29 16:04:04,885 test_contact.py[line:14] INFO 开始测试
+2020-07-29 16:04:16,240 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,448 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,520 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,591 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,670 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,765 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,844 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:16,925 test_contact.py[line:19] INFO App重启
+2020-07-29 16:04:17,002 test_contact.py[line:23] INFO 测试完成
+2020-07-29 16:04:46,387 test_contact.py[line:14] INFO 开始测试
+2020-07-29 16:04:57,049 basePage.py[line:22] INFO click
+2020-07-29 16:04:58,643 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:04:59,121 basePage.py[line:22] INFO click
+2020-07-29 16:05:00,033 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 16:05:01,360 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:05:02,041 basePage.py[line:22] INFO click
+2020-07-29 16:05:02,735 basePage.py[line:22] INFO click
+2020-07-29 16:05:02,930 basePage.py[line:26] INFO sendkeys : 12312312312
+2020-07-29 16:05:03,899 basePage.py[line:22] INFO click
+2020-07-29 16:05:04,546 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:05:05,479 basePage.py[line:50] INFO back: 1
+2020-07-29 16:05:05,646 basePage.py[line:22] INFO click
+2020-07-29 16:05:06,255 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:06,687 basePage.py[line:22] INFO click
+2020-07-29 16:05:06,883 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 16:05:08,549 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:05:09,123 basePage.py[line:22] INFO click
+2020-07-29 16:05:09,763 basePage.py[line:22] INFO click
+2020-07-29 16:05:10,173 basePage.py[line:26] INFO sendkeys : 12312312313
+2020-07-29 16:05:11,094 basePage.py[line:22] INFO click
+2020-07-29 16:05:11,691 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:05:13,277 basePage.py[line:50] INFO back: 1
+2020-07-29 16:05:13,519 basePage.py[line:22] INFO click
+2020-07-29 16:05:14,375 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:14,935 basePage.py[line:22] INFO click
+2020-07-29 16:05:15,130 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 16:05:16,414 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:05:17,155 basePage.py[line:22] INFO click
+2020-07-29 16:05:17,664 basePage.py[line:22] INFO click
+2020-07-29 16:05:18,489 basePage.py[line:26] INFO sendkeys : 12312312314
+2020-07-29 16:05:19,136 basePage.py[line:22] INFO click
+2020-07-29 16:05:19,756 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:05:21,374 basePage.py[line:50] INFO back: 1
+2020-07-29 16:05:21,513 basePage.py[line:22] INFO click
+2020-07-29 16:05:22,229 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:22,588 basePage.py[line:22] INFO click
+2020-07-29 16:05:26,524 basePage.py[line:22] INFO click
+2020-07-29 16:05:27,145 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:27,740 basePage.py[line:22] INFO click
+2020-07-29 16:05:27,816 basePage.py[line:22] INFO click
+2020-07-29 16:05:28,827 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:32,928 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:05:33,033 basePage.py[line:22] INFO click
+2020-07-29 16:05:33,161 basePage.py[line:22] INFO click
+2020-07-29 16:05:36,399 basePage.py[line:22] INFO click
+2020-07-29 16:05:38,229 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:39,148 basePage.py[line:22] INFO click
+2020-07-29 16:05:39,224 basePage.py[line:22] INFO click
+2020-07-29 16:05:40,397 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:44,157 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:05:44,241 basePage.py[line:22] INFO click
+2020-07-29 16:05:44,390 basePage.py[line:22] INFO click
+2020-07-29 16:05:45,730 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 16:05:46,446 basePage.py[line:50] INFO back: 1
+2020-07-29 16:05:46,477 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 16:05:49,641 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:49,687 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 16:05:52,891 basePage.py[line:50] INFO back: 1
+2020-07-29 16:05:53,075 basePage.py[line:22] INFO click
+2020-07-29 16:05:53,843 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:54,332 basePage.py[line:22] INFO click
+2020-07-29 16:05:54,410 basePage.py[line:22] INFO click
+2020-07-29 16:05:55,355 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:05:58,723 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:05:58,818 basePage.py[line:22] INFO click
+2020-07-29 16:05:58,946 basePage.py[line:22] INFO click
+2020-07-29 16:06:00,105 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 16:06:00,838 basePage.py[line:50] INFO back: 1
+2020-07-29 16:06:00,899 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 16:06:04,405 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:06:04,457 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 16:06:07,472 basePage.py[line:50] INFO back: 1
+2020-07-29 16:06:07,609 basePage.py[line:22] INFO click
+2020-07-29 16:06:08,395 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:06:23,515 test_contact.py[line:23] INFO 测试完成
+2020-07-29 16:07:39,821 test_contact.py[line:14] INFO 开始测试
+2020-07-29 16:07:50,614 basePage.py[line:22] INFO click
+2020-07-29 16:07:52,231 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:07:52,925 basePage.py[line:22] INFO click
+2020-07-29 16:07:53,770 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 16:07:55,016 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:07:55,643 basePage.py[line:22] INFO click
+2020-07-29 16:07:56,219 basePage.py[line:22] INFO click
+2020-07-29 16:07:57,076 basePage.py[line:26] INFO sendkeys : 12312312312
+2020-07-29 16:07:57,622 basePage.py[line:22] INFO click
+2020-07-29 16:07:58,186 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:07:59,112 basePage.py[line:50] INFO back: 1
+2020-07-29 16:07:59,259 basePage.py[line:22] INFO click
+2020-07-29 16:08:00,047 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:00,625 basePage.py[line:22] INFO click
+2020-07-29 16:08:00,821 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 16:08:02,387 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:08:02,870 basePage.py[line:22] INFO click
+2020-07-29 16:08:03,473 basePage.py[line:22] INFO click
+2020-07-29 16:08:04,343 basePage.py[line:26] INFO sendkeys : 12312312313
+2020-07-29 16:08:05,034 basePage.py[line:22] INFO click
+2020-07-29 16:08:05,625 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:08:07,004 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:07,136 basePage.py[line:22] INFO click
+2020-07-29 16:08:08,052 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:08,548 basePage.py[line:22] INFO click
+2020-07-29 16:08:08,726 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 16:08:10,218 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:08:10,724 basePage.py[line:22] INFO click
+2020-07-29 16:08:11,181 basePage.py[line:22] INFO click
+2020-07-29 16:08:11,355 basePage.py[line:26] INFO sendkeys : 12312312314
+2020-07-29 16:08:11,907 basePage.py[line:22] INFO click
+2020-07-29 16:08:12,437 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:08:13,365 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:13,529 basePage.py[line:22] INFO click
+2020-07-29 16:08:14,273 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:14,661 basePage.py[line:22] INFO click
+2020-07-29 16:08:14,815 basePage.py[line:26] INFO sendkeys : Fanta
+2020-07-29 16:08:16,277 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@text='男']"), timeout: 10
+2020-07-29 16:08:16,933 basePage.py[line:22] INFO click
+2020-07-29 16:08:17,616 basePage.py[line:22] INFO click
+2020-07-29 16:08:18,454 basePage.py[line:26] INFO sendkeys : 12312312315
+2020-07-29 16:08:19,276 basePage.py[line:22] INFO click
+2020-07-29 16:08:19,844 basePage.py[line:38] INFO webdriver_wait: ('xpath', "//*[@class='android.widget.Toast']"), timeout: 10
+2020-07-29 16:08:20,919 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:21,040 basePage.py[line:22] INFO click
+2020-07-29 16:08:22,061 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:22,644 basePage.py[line:22] INFO click
+2020-07-29 16:08:22,758 basePage.py[line:22] INFO click
+2020-07-29 16:08:23,954 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:27,736 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:08:27,821 basePage.py[line:22] INFO click
+2020-07-29 16:08:27,936 basePage.py[line:22] INFO click
+2020-07-29 16:08:29,733 basePage.py[line:26] INFO sendkeys : Cola
+2020-07-29 16:08:30,613 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:30,694 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Cola'), timeout: 10
+2020-07-29 16:08:34,056 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:34,105 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Cola'), timeout: 10
+2020-07-29 16:08:37,326 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:37,485 basePage.py[line:22] INFO click
+2020-07-29 16:08:38,300 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:38,832 basePage.py[line:22] INFO click
+2020-07-29 16:08:38,908 basePage.py[line:22] INFO click
+2020-07-29 16:08:39,895 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:43,455 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:08:43,534 basePage.py[line:22] INFO click
+2020-07-29 16:08:43,644 basePage.py[line:22] INFO click
+2020-07-29 16:08:45,231 basePage.py[line:26] INFO sendkeys : Pepsi
+2020-07-29 16:08:45,949 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:46,000 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 16:08:49,303 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:49,358 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Pepsi'), timeout: 10
+2020-07-29 16:08:52,558 basePage.py[line:50] INFO back: 1
+2020-07-29 16:08:52,722 basePage.py[line:22] INFO click
+2020-07-29 16:08:53,485 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:53,983 basePage.py[line:22] INFO click
+2020-07-29 16:08:54,077 basePage.py[line:22] INFO click
+2020-07-29 16:08:55,106 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:08:58,195 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:08:58,968 basePage.py[line:22] INFO click
+2020-07-29 16:08:59,055 basePage.py[line:22] INFO click
+2020-07-29 16:09:00,154 basePage.py[line:26] INFO sendkeys : Sprite
+2020-07-29 16:09:00,891 basePage.py[line:50] INFO back: 1
+2020-07-29 16:09:00,974 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 16:09:04,337 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:09:04,394 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Sprite'), timeout: 10
+2020-07-29 16:09:07,871 basePage.py[line:50] INFO back: 1
+2020-07-29 16:09:08,000 basePage.py[line:22] INFO click
+2020-07-29 16:09:08,675 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:09:09,032 basePage.py[line:22] INFO click
+2020-07-29 16:09:09,790 basePage.py[line:22] INFO click
+2020-07-29 16:09:10,847 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:09:14,502 basePage.py[line:38] INFO webdriver_wait: ('xpath', '//*[@text="确定"]'), timeout: 10
+2020-07-29 16:09:14,576 basePage.py[line:22] INFO click
+2020-07-29 16:09:14,681 basePage.py[line:22] INFO click
+2020-07-29 16:09:15,587 basePage.py[line:26] INFO sendkeys : Fanta
+2020-07-29 16:09:16,273 basePage.py[line:50] INFO back: 1
+2020-07-29 16:09:16,321 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Fanta'), timeout: 10
+2020-07-29 16:09:19,629 basePage.py[line:30] INFO find_by_scroll
+2020-07-29 16:09:19,694 basePage.py[line:44] INFO webdriver_wait: ('xpath', 'Fanta'), timeout: 10
+2020-07-29 16:09:23,009 basePage.py[line:50] INFO back: 1
+2020-07-29 16:09:23,067 test_contact.py[line:23] INFO 测试完成
