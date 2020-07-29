@@ -1,0 +1,53 @@
+{
+  "name": "test_del_contact[Lili]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "e83a1f15-b831-4fc9-9ed7-6d7217ede80e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'Lili'"
+    }
+  ],
+  "start": 1595579752890,
+  "stop": 1595579772280,
+  "uuid": "27df832a-81b7-43a3-9fa2-953a0b11b113",
+  "historyId": "93ef2dea31a480e45462afa58f37a11f",
+  "testCaseId": "3269081803866eeef5e717c5cce46d04",
+  "fullName": "test_contact.TestContact#test_del_contact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "16148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

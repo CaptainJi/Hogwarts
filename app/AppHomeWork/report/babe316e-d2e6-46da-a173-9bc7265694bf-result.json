@@ -1,0 +1,57 @@
+{
+  "name": "test_del_contact[Cola]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert False",
+    "trace": "self = <test_contact.TestContact object at 0x0000029563BB5748>, username = 'Cola'\n\n    @pytest.mark.parametrize('username', ['Cola', 'Lili', 'Captain'])\n    def test_del_contact(self, username):\n        result = self.index.goto_contact().del_contact(username)\n>       assert result\nE       assert False\n\ntest_contact.py:21: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "23ace97f-18f2-4fe5-95f1-5475a6e16db8-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'Cola'"
+    }
+  ],
+  "start": 1595579727498,
+  "stop": 1595579738360,
+  "uuid": "2dd5e515-893d-4eb5-975f-f2da71dfde5e",
+  "historyId": "aba9507c52801e3fc33a3c61c36bac3d",
+  "testCaseId": "3269081803866eeef5e717c5cce46d04",
+  "fullName": "test_contact.TestContact#test_del_contact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "16148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

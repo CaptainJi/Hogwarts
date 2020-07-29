@@ -1,0 +1,53 @@
+{
+  "name": "test_del_contact[Captain]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "7da5c95e-2ad8-41bf-a8f8-d6bfe42dd090-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'Captain'"
+    }
+  ],
+  "start": 1595579787914,
+  "stop": 1595579799189,
+  "uuid": "2ce2a249-3750-4156-aa40-67e4348aade6",
+  "historyId": "079cfa997425c0ad2fb65a54710b629c",
+  "testCaseId": "3269081803866eeef5e717c5cce46d04",
+  "fullName": "test_contact.TestContact#test_del_contact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "16148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

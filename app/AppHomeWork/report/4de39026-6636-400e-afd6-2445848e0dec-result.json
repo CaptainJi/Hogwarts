@@ -1,0 +1,57 @@
+{
+  "name": "test_add_contact[Cola-13111111111]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "dd329cdb-1cf2-4c0c-a528-59cf8ae8ab1c-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'Cola'"
+    },
+    {
+      "name": "mobilephone",
+      "value": "'13111111111'"
+    }
+  ],
+  "start": 1595579648943,
+  "stop": 1595579656398,
+  "uuid": "398c24d7-f5d2-4f1d-90d9-9fb2c9967ec3",
+  "historyId": "79cf2b76353cdaf9f083c620cf2cff5e",
+  "testCaseId": "ac75061d057e4ecbb1dac5325636e641",
+  "fullName": "test_contact.TestContact#test_add_contact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "16148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

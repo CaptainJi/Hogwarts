@@ -1,0 +1,57 @@
+{
+  "name": "test_add_contact[Lili-13222222222]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "4db6a9a2-34d8-4007-889c-d3379e1d7035-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'Lili'"
+    },
+    {
+      "name": "mobilephone",
+      "value": "'13222222222'"
+    }
+  ],
+  "start": 1595579672110,
+  "stop": 1595579680258,
+  "uuid": "19fdbefd-d700-42df-bd7e-22b937b9cb41",
+  "historyId": "0d087ebd801fad6fef6c4cdf85cdf927",
+  "testCaseId": "ac75061d057e4ecbb1dac5325636e641",
+  "fullName": "test_contact.TestContact#test_add_contact",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "16148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}
