@@ -1,0 +1,105 @@
+INFO 2020-07-31 09:34:36,721 basePage.py[line:17] find: //*[@resource-id="android:id/tabs"]//*[@text="行情"]
+INFO 2020-07-31 09:40:57,467 basePage.py[line:17] find: //*[@resource-id="android:id/tabs"]//*[@text="行情"]
+INFO 2020-07-31 09:41:39,964 basePage.py[line:17] find: //*[@resource-id="android:id/tabs"]//*[@text="行情"]
+INFO 2020-07-31 09:43:49,415 basePage.py[line:17] find: //*[@resource-id="android:id/tabs"]//*[@text="行情"]
+INFO 2020-07-31 10:08:03,505 basePage.py[line:17] find: None
+INFO 2020-07-31 10:23:07,434 basePage.py[line:17] find: None
+INFO 2020-07-31 10:23:13,385 basePage.py[line:33] click
+INFO 2020-07-31 10:23:13,385 basePage.py[line:17] find: None
+INFO 2020-07-31 10:24:38,996 basePage.py[line:17] find: None
+INFO 2020-07-31 10:24:44,935 basePage.py[line:33] click
+INFO 2020-07-31 10:24:44,936 basePage.py[line:17] find: None
+INFO 2020-07-31 10:24:45,990 basePage.py[line:37] sendkeys : 阿里巴巴
+INFO 2020-07-31 10:24:45,991 basePage.py[line:17] find: None
+INFO 2020-07-31 10:27:54,398 basePage.py[line:17] find: None
+INFO 2020-07-31 10:28:00,404 basePage.py[line:33] click
+INFO 2020-07-31 10:28:00,404 basePage.py[line:17] find: None
+INFO 2020-07-31 10:28:01,499 basePage.py[line:37] sendkeys : 阿里巴巴
+INFO 2020-07-31 10:28:01,500 basePage.py[line:17] find: None
+INFO 2020-07-31 10:29:09,171 basePage.py[line:17] find: None
+INFO 2020-07-31 10:29:15,091 basePage.py[line:33] click
+INFO 2020-07-31 10:29:15,092 basePage.py[line:17] find: None
+INFO 2020-07-31 10:29:16,341 basePage.py[line:37] sendkeys : 阿里巴巴
+INFO 2020-07-31 10:29:16,341 basePage.py[line:17] find: None
+INFO 2020-07-31 10:31:38,227 basePage.py[line:17] find: None
+INFO 2020-07-31 10:31:44,123 basePage.py[line:33] click
+INFO 2020-07-31 10:31:44,123 basePage.py[line:17] find: None
+INFO 2020-07-31 10:31:45,186 basePage.py[line:37] sendkeys : 阿里巴巴
+INFO 2020-07-31 10:31:45,186 basePage.py[line:17] find: None
+INFO 2020-07-31 10:33:12,725 basePage.py[line:17] find: None
+INFO 2020-07-31 10:33:18,720 basePage.py[line:33] click
+INFO 2020-07-31 10:33:18,720 basePage.py[line:17] find: None
+INFO 2020-07-31 10:33:19,659 basePage.py[line:17] find: None
+INFO 2020-07-31 10:36:04,315 basePage.py[line:17] find: None
+INFO 2020-07-31 10:36:10,705 basePage.py[line:33] click
+INFO 2020-07-31 10:36:10,706 basePage.py[line:17] find: None
+INFO 2020-07-31 10:36:11,435 basePage.py[line:17] find: None
+INFO 2020-07-31 10:38:35,648 basePage.py[line:17] find: None
+INFO 2020-07-31 10:38:41,714 basePage.py[line:33] click
+INFO 2020-07-31 10:38:41,714 basePage.py[line:17] find: None
+INFO 2020-07-31 10:38:42,773 basePage.py[line:17] find: None
+INFO 2020-07-31 11:14:20,386 basePage.py[line:56] click
+INFO 2020-07-31 13:15:39,679 basePage.py[line:54] click
+INFO 2020-07-31 13:16:57,064 basePage.py[line:54] click
+INFO 2020-07-31 13:18:12,074 basePage.py[line:54] click
+INFO 2020-07-31 13:18:18,125 basePage.py[line:54] click
+INFO 2020-07-31 13:23:38,983 basePage.py[line:70] click
+INFO 2020-07-31 13:24:34,019 basePage.py[line:70] click
+INFO 2020-07-31 13:24:40,239 basePage.py[line:70] click
+INFO 2020-07-31 13:25:29,515 basePage.py[line:71] click
+INFO 2020-07-31 13:25:35,797 basePage.py[line:71] click
+INFO 2020-07-31 13:26:03,125 basePage.py[line:71] click
+INFO 2020-07-31 13:27:07,833 basePage.py[line:71] click
+INFO 2020-07-31 13:27:38,076 basePage.py[line:71] click
+INFO 2020-07-31 13:27:44,155 basePage.py[line:71] click
+INFO 2020-07-31 13:36:42,449 basePage.py[line:80] click
+INFO 2020-07-31 13:36:48,502 basePage.py[line:80] click
+INFO 2020-07-31 13:37:54,305 basePage.py[line:81] click
+INFO 2020-07-31 13:38:00,511 basePage.py[line:81] click
+INFO 2020-07-31 13:44:28,047 basePage.py[line:81] click
+INFO 2020-07-31 13:46:35,650 basePage.py[line:81] click
+INFO 2020-07-31 13:47:34,027 basePage.py[line:82] click
+INFO 2020-07-31 13:49:57,981 basePage.py[line:82] click
+INFO 2020-07-31 13:50:17,733 basePage.py[line:82] click
+INFO 2020-07-31 13:50:17,734 basePage.py[line:75] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 13:53:18,604 basePage.py[line:81] click
+INFO 2020-07-31 13:53:18,605 basePage.py[line:74] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 13:55:03,220 basePage.py[line:81] click
+INFO 2020-07-31 13:55:03,220 basePage.py[line:74] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:00:04,726 basePage.py[line:79] click
+INFO 2020-07-31 14:00:04,727 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:01:43,723 basePage.py[line:79] click
+INFO 2020-07-31 14:01:43,724 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:02:50,725 basePage.py[line:79] click
+INFO 2020-07-31 14:02:50,726 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:05:11,906 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:05:40,679 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:06:24,991 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:08:09,924 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:10:33,015 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:13:13,482 basePage.py[line:73] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:13:44,207 basePage.py[line:74] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:19:35,399 basePage.py[line:74] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:20:34,385 basePage.py[line:73] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:21:10,734 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:21:44,061 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:27:52,701 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:27:54,690 basePage.py[line:78] click
+INFO 2020-07-31 14:29:51,462 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:29:53,422 basePage.py[line:78] click
+INFO 2020-07-31 14:31:16,519 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:31:18,565 basePage.py[line:78] click
+INFO 2020-07-31 14:33:18,162 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:33:20,201 basePage.py[line:79] click
+INFO 2020-07-31 14:39:54,714 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:39:56,695 basePage.py[line:78] click
+INFO 2020-07-31 14:42:58,381 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:43:00,414 basePage.py[line:78] click
+INFO 2020-07-31 14:43:41,256 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:43:43,186 basePage.py[line:78] click
+INFO 2020-07-31 14:48:04,617 basePage.py[line:72] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:48:06,596 basePage.py[line:79] click
+INFO 2020-07-31 14:50:58,069 basePage.py[line:73] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:51:00,069 basePage.py[line:80] click
+INFO 2020-07-31 14:54:19,255 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 14:54:21,253 basePage.py[line:78] click
