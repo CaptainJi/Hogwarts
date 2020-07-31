@@ -103,3 +103,20 @@ INFO 2020-07-31 14:50:58,069 basePage.py[line:73] finds: (('xpath', '//*[contain
 INFO 2020-07-31 14:51:00,069 basePage.py[line:80] click
 INFO 2020-07-31 14:54:19,255 basePage.py[line:71] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
 INFO 2020-07-31 14:54:21,253 basePage.py[line:78] click
+INFO 2020-07-31 15:02:27,885 basePage.py[line:78] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:02:27,993 basePage.py[line:40] close popup
+INFO 2020-07-31 15:02:29,968 basePage.py[line:85] click
+INFO 2020-07-31 15:03:26,121 basePage.py[line:78] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:03:26,201 basePage.py[line:40] close popup
+INFO 2020-07-31 15:03:28,088 basePage.py[line:85] click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-07-31 15:04:21,941 basePage.py[line:78] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:04:22,047 basePage.py[line:40] close popup('xpath', '//*[contains(@text,"跳过")]')
+INFO 2020-07-31 15:04:24,053 basePage.py[line:85] click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-07-31 15:05:51,854 basePage.py[line:38] close popup('xpath', '//*[contains(@text,"跳过")]')
+INFO 2020-07-31 15:05:51,855 basePage.py[line:78] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:05:53,903 basePage.py[line:85] click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-07-31 15:10:17,233 basePage.py[line:79] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:10:17,338 basePage.py[line:40] close popup('xpath', '//*[contains(@text,"跳过")]')
+INFO 2020-07-31 15:10:19,283 basePage.py[line:86] click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-07-31 15:13:14,942 basePage.py[line:78] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-07-31 15:13:15,036 basePage.py[line:40] close popup('xpath', '//*[contains(@text,"跳过")]')

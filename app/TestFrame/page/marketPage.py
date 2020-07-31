@@ -8,5 +8,5 @@ action_search_element = (MobileBy.XPATH, "//*[@resource-id='com.xueqiu.android:i
 
 class MarketPage(BasePage):
     def goto_search(self):
-        self.find_and_click(action_search_element)
+        self.find(action_search_element).click()
         return SearchPage(self.driver)

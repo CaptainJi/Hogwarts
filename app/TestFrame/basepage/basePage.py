@@ -37,7 +37,7 @@ class BasePage:
                 for ele in self._black_list:
                     eles = self.finds(ele)
                     if len(eles) > 0:
-                        logging.info(f'关闭弹窗{ele}')
+                        logging.info(f'close popup{ele}')
                         eles[0].click()
                         # 再次执行fun
                         return fun(self, *args, **kwargs)
@@ -82,7 +82,7 @@ class BasePage:
             return self.driver.find_elements(by, locator)
 
     def find_and_click(self, locator):
-        logging.info('click')
+        logging.info(f'click{locator}')
         self.find(locator).click()
 
     def find_and_sendkeys(self, locator, text):
