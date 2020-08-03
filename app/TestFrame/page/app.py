@@ -34,7 +34,7 @@ class App(BasePage):
             # launch_app() 这个方法不需要传入任何参数， 会自动启动起来DesireCapa里面定义的activity
             # start_activity(packagename, activityname) 可以启动其它的应用的页面
             self.driver.launch_app()
-        self.driver.implicitly_wait(3)
+        self.driver.implicitly_wait(2)
         return self
 
     def restart(self):

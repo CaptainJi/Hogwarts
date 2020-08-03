@@ -1,0 +1,6 @@
+[32mINFO    [0m root:basePage.py:47 click('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+[1m[31mERROR   [0m root:black_handle.py:38 element not found,handle black list
+[32mINFO    [0m root:basePage.py:39 finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+[32mINFO    [0m root:black_handle.py:50 关闭黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+[32mINFO    [0m root:basePage.py:47 click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+[32mINFO    [0m root:basePage.py:52 sendkeys : 腾讯

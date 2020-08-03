@@ -1,0 +1,1 @@
+[32mINFO    [0m root:basePage.py:47 click('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")

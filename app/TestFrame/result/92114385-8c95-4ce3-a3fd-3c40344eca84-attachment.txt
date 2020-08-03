@@ -1,0 +1,14 @@
+[32mINFO    [0m root:basePage.py:62 点击('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+[31m[1mERROR   [0m root:black_handle.py:40 element not found,handle black list
+[32mINFO    [0m root:basePage.py:118 隐式等待:1秒
+[32mINFO    [0m root:basePage.py:50 查找多个: (('xpath', '//*[contains(@text,"跳过")]'), None)
+[32mINFO    [0m root:black_handle.py:52 关闭黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒
+[32mINFO    [0m root:basePage.py:62 点击('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒
+[32mINFO    [0m root:basePage.py:72 填入 : 阿里巴巴
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/search_input_text']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒

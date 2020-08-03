@@ -1,0 +1,15 @@
+[32mINFO    [0m root:basePage.py:62 点击('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+[31m[1mERROR   [0m root:black_handle.py:46 元素未找到,开始处理黑名单流程
+[32mINFO    [0m root:basePage.py:118 隐式等待:1秒
+[32mINFO    [0m root:basePage.py:50 查找多个包含: (('xpath', '//*[contains(@text,"跳过")]'), None)的元素
+[32mINFO    [0m root:black_handle.py:58 找到黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+[32mINFO    [0m root:black_handle.py:60 开始处理黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒
+[32mINFO    [0m root:basePage.py:62 点击('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒
+[32mINFO    [0m root:basePage.py:72 填入 : "腾讯"
+[32mINFO    [0m root:basePage.py:36 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/search_input_text']"), None)
+[32mINFO    [0m root:basePage.py:118 隐式等待:3秒

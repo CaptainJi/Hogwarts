@@ -1,0 +1,4 @@
+goto_main:
+  - by: xpath
+    locator: //*[@resource-id='android:id/tabs']//*[@text='${stock_name}']
+    action: click

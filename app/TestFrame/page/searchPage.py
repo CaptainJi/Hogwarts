@@ -6,7 +6,7 @@ search_input_element = (MobileBy.XPATH, "//*[@resource-id='com.xueqiu.android:id
 
 
 class SearchPage(BasePage):
-    def search(self):
-        seartch_input = self.find(search_input_element)
-        seartch_input.send_keys('阿里巴巴')
-        seartch_input.click()
+    def search(self, stock_name):
+        # 设置变量名
+        self._params['stock_name'] = stock_name
+        self.action_steps(steps_path='../steps/search.yml', name='search')

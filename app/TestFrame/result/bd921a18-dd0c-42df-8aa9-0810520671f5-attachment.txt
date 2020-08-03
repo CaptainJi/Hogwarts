@@ -1,0 +1,14 @@
+INFO 2020-08-03 15:23:52,747 basePage.py[line:62] 点击('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+INFO 2020-08-03 15:23:52,747 basePage.py[line:36] 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+ERROR 2020-08-03 15:23:55,605 black_handle.py[line:40] element not found,handle black list
+INFO 2020-08-03 15:23:55,606 basePage.py[line:118] 隐式等待:1秒
+INFO 2020-08-03 15:23:55,615 basePage.py[line:50] 查找多个: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-08-03 15:23:55,708 black_handle.py[line:52] 关闭黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+INFO 2020-08-03 15:23:55,760 basePage.py[line:36] 查找: (('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']"), None)
+INFO 2020-08-03 15:23:57,366 basePage.py[line:118] 隐式等待:3秒
+INFO 2020-08-03 15:23:57,425 basePage.py[line:62] 点击('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-08-03 15:23:57,425 basePage.py[line:36] 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']"), None)
+INFO 2020-08-03 15:23:58,418 basePage.py[line:118] 隐式等待:3秒
+INFO 2020-08-03 15:23:58,481 basePage.py[line:72] 填入 : JD
+INFO 2020-08-03 15:23:58,482 basePage.py[line:36] 查找: (('xpath', "//*[@resource-id='com.xueqiu.android:id/search_input_text']"), None)
+INFO 2020-08-03 15:23:59,584 basePage.py[line:118] 隐式等待:3秒

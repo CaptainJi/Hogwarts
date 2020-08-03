@@ -1,0 +1,6 @@
+INFO 2020-08-03 15:05:31,180 basePage.py[line:47] click('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+ERROR 2020-08-03 15:05:34,804 black_handle.py[line:38] element not found,handle black list
+INFO 2020-08-03 15:05:34,810 basePage.py[line:39] finds: (('xpath', '//*[contains(@text,"跳过")]'), None)
+INFO 2020-08-03 15:05:34,911 black_handle.py[line:50] 关闭黑名单元素('xpath', '//*[contains(@text,"跳过")]')
+INFO 2020-08-03 15:05:36,696 basePage.py[line:47] click('xpath', "//*[@resource-id='com.xueqiu.android:id/action_search']")
+INFO 2020-08-03 15:05:37,782 basePage.py[line:52] sendkeys : 阿里巴巴

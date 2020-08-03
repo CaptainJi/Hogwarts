@@ -1,0 +1,1 @@
+INFO 2020-08-03 15:03:47,191 basePage.py[line:47] click('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")

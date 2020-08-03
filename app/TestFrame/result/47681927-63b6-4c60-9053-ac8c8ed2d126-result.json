@@ -1,0 +1,62 @@
+{
+  "name": "test_market[JD]",
+  "status": "passed",
+  "attachments": [
+    {
+      "source": "3f4cb2de-0a1a-4279-bda5-a3644108c822-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "log",
+      "source": "ad8ade35-cac2-4e15-89a9-5dd857567788-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "stdout",
+      "source": "bd921a18-dd0c-42df-8aa9-0810520671f5-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "stock_name",
+      "value": "'JD'"
+    }
+  ],
+  "start": 1596439421871,
+  "stop": 1596439439696,
+  "uuid": "6d03afd1-9b60-4142-8d7b-e708813cd00c",
+  "historyId": "3377bc29c2670c2e968264771cab2e13",
+  "testCaseId": "255fb70a96453190a8815517e8bd1d82",
+  "fullName": "test_market.TestMarket#test_market",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_market"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMarket"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "17724-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_market"
+    }
+  ]
+}

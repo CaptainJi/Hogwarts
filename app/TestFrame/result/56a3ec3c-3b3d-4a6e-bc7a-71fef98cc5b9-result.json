@@ -1,0 +1,57 @@
+{
+  "name": "test_market[腾讯]",
+  "status": "passed",
+  "attachments": [
+    {
+      "source": "38b89c39-f6f7-4379-8124-08592b867134-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "log",
+      "source": "5c3d3674-049c-4db2-9685-70a8bcc7d613-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "stock_name",
+      "value": "'腾讯'"
+    }
+  ],
+  "start": 1596440336991,
+  "stop": 1596440355574,
+  "uuid": "b2e01dcb-8bb3-4c8c-85a1-79093702cc58",
+  "historyId": "5ad421df061ae336ed6ddfd14affc6c1",
+  "testCaseId": "255fb70a96453190a8815517e8bd1d82",
+  "fullName": "test_market.TestMarket#test_market",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_market"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMarket"
+    },
+    {
+      "name": "host",
+      "value": "CaptainOfficePC"
+    },
+    {
+      "name": "thread",
+      "value": "17744-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_market"
+    }
+  ]
+}

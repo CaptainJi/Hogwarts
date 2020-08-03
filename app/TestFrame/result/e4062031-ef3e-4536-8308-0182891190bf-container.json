@@ -1,0 +1,13 @@
+{
+  "uuid": "4f1b4ae9-6b9a-4bb8-bfe4-04117e967f1e",
+  "befores": [
+    {
+      "name": "stock_name",
+      "status": "passed",
+      "start": 1596439421869,
+      "stop": 1596439421870
+    }
+  ],
+  "start": 1596439421869,
+  "stop": 1596439439697
+}

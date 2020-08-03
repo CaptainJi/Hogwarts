@@ -1,0 +1,26 @@
+{
+  "uuid": "4d6c7789-2f5e-45bb-9184-ce0574c2dc8a",
+  "children": [
+    "23e3db52-1723-4e32-a01c-9941bf33cadc",
+    "ba8e0ae7-5c68-40af-b909-2cf34238352b",
+    "b2e01dcb-8bb3-4c8c-85a1-79093702cc58"
+  ],
+  "befores": [
+    {
+      "name": "record",
+      "status": "passed",
+      "start": 1596440300379,
+      "stop": 1596440300402
+    }
+  ],
+  "afters": [
+    {
+      "name": "record::0",
+      "status": "passed",
+      "start": 1596440355578,
+      "stop": 1596440355579
+    }
+  ],
+  "start": 1596440300379,
+  "stop": 1596440355579
+}
