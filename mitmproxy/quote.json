@@ -1,0 +1,147 @@
+{
+  "data": {
+    "items": [
+      {
+        "market": {
+          "status_id": 5,
+          "region": "HK",
+          "status": "交易中",
+          "time_zone": "Asia/Shanghai",
+          "time_zone_desc": null
+        },
+        "quote": {
+          "symbol": "00700",
+          "code": "00700",
+          "exchange": "HK",
+          "name": "周杰偷控股",
+          "type": 30,
+          "sub_type": "256",
+          "status": 1,
+          "current": 516.0,
+          "currency": "HKD",
+          "percent": -2.18,
+          "chg": -11.5,
+          "timestamp": 1597023075431,
+          "time": 1597023075431,
+          "lot_size": 100,
+          "tick_size": 0.5,
+          "open": 510.0,
+          "last_close": 527.5,
+          "high": 516.0,
+          "low": 509.0,
+          "avg_price": 510.859,
+          "volume": 3456894,
+          "amount": 1.765985412E9,
+          "turnover_rate": 0.04,
+          "amplitude": 1.33,
+          "market_capital": 4.944354016848E12,
+          "float_market_capital": 4.944354016848E12,
+          "total_shares": 9582081428,
+          "float_shares": 9582081428,
+          "issue_date": 1087315200000,
+          "lock_set": null,
+          "current_year_percent": 37.76
+        },
+        "others": {
+          "cyb_switch": false
+        },
+        "tags": []
+      },
+      {
+        "market": {
+          "status_id": 8,
+          "region": "US",
+          "status": "休市",
+          "time_zone": "America/New_York",
+          "time_zone_desc": null
+        },
+        "quote": {
+          "symbol": "TCEHY",
+          "code": "TCEHY",
+          "exchange": "PINK",
+          "name": "周杰偷控股ADR",
+          "type": 6,
+          "sub_type": null,
+          "status": 1,
+          "current": 67.22,
+          "currency": "USD",
+          "percent": -7.37,
+          "chg": -5.35,
+          "timestamp": 1596830399784,
+          "time": 1596830399784,
+          "lot_size": 1,
+          "tick_size": 0.01,
+          "open": 67.93,
+          "last_close": 72.57,
+          "high": 68.45,
+          "low": 66.85,
+          "avg_price": 67.553569,
+          "volume": 9096526,
+          "amount": 6.14502797E8,
+          "turnover_rate": 0.1,
+          "amplitude": 2.2,
+          "market_capital": 6.3569954E11,
+          "float_market_capital": null,
+          "total_shares": 9457000000,
+          "float_shares": null,
+          "issue_date": 1252339200000,
+          "lock_set": 3,
+          "current_year_percent": 40.01
+        },
+        "others": {
+          "cyb_switch": false
+        },
+        "tags": []
+      },
+      {
+        "market": {
+          "status_id": 8,
+          "region": "US",
+          "status": "休市",
+          "time_zone": "America/New_York",
+          "time_zone_desc": null
+        },
+        "quote": {
+          "symbol": "TME",
+          "code": "TME",
+          "exchange": "NYSE",
+          "name": "周杰偷音乐",
+          "type": 0,
+          "sub_type": "1536",
+          "status": 1,
+          "current": 16.02,
+          "currency": "USD",
+          "percent": -3.32,
+          "chg": -0.55,
+          "timestamp": 1596830401842,
+          "time": 1596830401842,
+          "lot_size": 1,
+          "tick_size": 0.01,
+          "open": 16.4,
+          "last_close": 16.57,
+          "high": 16.4,
+          "low": 15.73,
+          "avg_price": 15.958,
+          "volume": 8685167,
+          "amount": 1.38597895E8,
+          "turnover_rate": 0.52,
+          "amplitude": 4.04,
+          "market_capital": 2.6874078163E10,
+          "float_market_capital": null,
+          "total_shares": 1677532969,
+          "float_shares": null,
+          "issue_date": 1544544000000,
+          "lock_set": 1,
+          "current_year_percent": 36.46
+        },
+        "others": {
+          "cyb_switch": false
+        },
+        "tags": []
+      }
+    ],
+    "items_size": 3
+  },
+  "error_code": 0,
+  "error_description": ""
+}
