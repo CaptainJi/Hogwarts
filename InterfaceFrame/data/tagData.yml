@@ -1,0 +1,22 @@
+add:
+  'method': 'post'
+  'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/create?access_token=${token}'
+  'json':
+    "tagname": ${tagname}
+    "tagid": ${tagid}
+
+remove:
+  'method': 'get'
+  'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/delete?access_token=${token}&tagid=${tagid}'
+
+update:
+  'method': 'post'
+  'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/update?access_token=${token}'
+  'json':
+    "tagid": ${tagid}
+    "tagname": ${tagname}
+
+get:
+  'method': 'get'
+  'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=${token}&tagid=${tagid}'
+
